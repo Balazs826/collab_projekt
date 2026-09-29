@@ -47,10 +47,6 @@ h1{
     text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
 }
 
-.container-3 {
-    z-index: 3;
-}
-
 .mondatok {
     color: #f1f3f5;
     font-weight: 500;
