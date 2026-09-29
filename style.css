@@ -37,12 +37,30 @@ h1{
 }
 
 .card-body {
-    color: #f8f9fa;
-    padding: 12px 0 0;
+    color: #ffffff;
+    padding: 14px 12px 16px;
+    font-size: 1.08rem;
+    font-weight: 600;
+    line-height: 1.55;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 10px 10px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.9);
 }
 
 .container-3 {
     z-index: 3;
+}
+
+.mondatok {
+    color: #f1f3f5;
+    font-weight: 500;
+    line-height: 1.6;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.75);
+}
+
+.mondatok p {
+    border-top: 2px solid #f4b942;
+    border-bottom: 2px solid #f4b942;
 }
 
 body {
