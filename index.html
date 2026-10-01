@@ -17,15 +17,7 @@
 
 <body>
 
-<section class="intro-overlay" id="introOverlay" aria-labelledby="introTitle">
-    <img src="https://a1cf74336522e87f135f-2f21ace9a6cf0052456644b80fa06d4f.ssl.cf2.rackcdn.com/images/characters/large/800/Po.Kung-Fu-Panda.webp"
-         alt="Po, a panda">
-    <div class="intro-content">
-        <h1 id="introTitle" class="text-warning">Kung Fu Panda</h1>
-        <p class="mondatok">Üdvözöl a Sárkányharcos világa!</p>
-        <button class="intro-continue" id="introContinue" type="button">Tovább az oldalra</button>
-    </div>
-</section>
+
 
 <nav class="navbar navbar-dark bg-dark">
 
@@ -250,29 +242,6 @@
 
 </div>
 
-
-
-<script>
-    const introOverlay = document.getElementById("introOverlay");
-    const introContinue = document.getElementById("introContinue");
-    const introSeenKey = "kungFuPandaIntroSeen";
-
-    function closeIntro() {
-        introOverlay.classList.add("is-hidden");
-        localStorage.setItem(introSeenKey, "true");
-    }
-
-    if (localStorage.getItem(introSeenKey) === "true") {
-        introOverlay.classList.add("is-hidden");
-    }
-
-    introContinue.addEventListener("click", closeIntro);
-    document.addEventListener("keydown", (event) => {
-        if (event.key === "Escape") {
-            closeIntro();
-        }
-    });
-</script>
 
 </body>
 
